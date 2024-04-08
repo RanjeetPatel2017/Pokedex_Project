@@ -47,9 +47,10 @@ function PokemonList(){
         <div className="pokemon-list-wrapper">
            
             <div className="pokemon-wrapper">
-                {(isLoading) ? 'Loading.....':
+                {(isLoading) ? <img src="https://i.gifer.com/ZKZg.gif" />:
                 
-                pokemonList.map((p)=> <Pokemon name={p.name} image={p.image} key={p.id}/>)
+                pokemonList.map((p)=> <Pokemon name={p.name} image={p.image} key={p.id}
+                id={p.id}/>)
             
         }
             </div>

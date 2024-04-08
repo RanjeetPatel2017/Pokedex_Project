@@ -19,5 +19,14 @@
 .controls button{
     padding: 0.5rem 1rem;
     margin-left: 1rem;
+    
 
+}
+.pokemon-wrapper > img{
+    width: 50px;
+    margin: 2rem;
+}
+.controls{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

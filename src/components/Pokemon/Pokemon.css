@@ -10,6 +10,8 @@
 .pokemon-name{
     font-size: large;
     letter-spacing:0.5rem ;
+    display: flex;
+    justify-content: center;
 }
 .pokemon-image{
     margin: 1rem;
